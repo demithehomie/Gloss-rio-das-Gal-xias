@@ -1,4 +1,4 @@
-Galerinha, peguem essa Galera, pega a visão! Qual é a estrutura da programação orientada a objetos?
+Galera, pega a visão! Qual é a estrutura da programação orientada a objetos?
 
 A estrutura, ou blocos de construção, da programação orientada a objetos incluem o seguinte:
 
