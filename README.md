@@ -1,9 +1,9 @@
 # Glossario-das-Galaxias
 Travou no conteúdo das aulas? Aqui é o lugar que vocês devem vir pra tirar as dúvidas das aulas. 
 
-Conteúdo teórico, video-aulas, e exercícios pra caramba
+Conteúdo teórico, video-aulas, exemplos e exercícioooos!!!
 
-# BLOCO UM
+# BLOCO 1
 
 ## * Vanilla Javascript
 ### * 
@@ -13,6 +13,10 @@ Conteúdo teórico, video-aulas, e exercícios pra caramba
 ### * Herança
 ### * Encapsulamento
 ### * Abstração
+
+## * Collection
+
+## * Arrow Function
 
 # BLOCO 2
 
@@ -24,6 +28,20 @@ Conteúdo teórico, video-aulas, e exercícios pra caramba
 
 ## * TypeORM
 
-## * 
+## * REST API
+
+## * SECURE API
+
+## * CRUD
+
+## * DEPLOY
 
 # BLOCO 3
+
+## * React
+
+## * HTML
+
+## * CSS
+
+## * Bootstrap
