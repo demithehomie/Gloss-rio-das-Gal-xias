@@ -15,49 +15,27 @@
 
 ### Após as fitas, chegaram os discos. Disquetes e HDs. O armazenamento passou a ser direto, e não sequencial. Haviam índices, chaves identificadoras de registros. Algo muito parecido com o que temos hoje em dia, mas eram índices, e não palavras chaves que possibilitaram o acesso aos arquivos. Arquivos de acesso direto. Ainda na década de 60, o departamento de defesa americano tinha uma tarefa de armazenar dados de forma mais segura e inteligente, e no CODASYL (consultar rodapé deste arquivo) algo começou a surgir.
  
+### A IBM, empresa de tecnologia americana vanguardista, que criou o computador pessoal (não foi a Apple nem a Microsoft), criou o conceito de dados hierárquicos. De forma simples, mas hierarquicamente. Foi criado o modelo hierárquico. E em seguida o modelo de rede. Mas ambos não facilitavam o relacionamento direto. Década de 70, e Edgar codd foi o primeiro a sugerir o modelo relacional, e é esse que nós utizaremos. Modelos orientados a objetos são mais atuais do que esse. Mas pra facilitar o nosso entendimento, vamos começar do modelo relacional A partir de um dado armazenado, eu consigo navegar por esses dados.
+
+## Analogias?
+
+### Fichas são armazenadas em - Pastas que são armazenadas em - Armários de Arquivo
+
+### Registros são armazenadas em - Tabelas que são armazenadas em - Arquivos com a extensão .SQL 
+
+# Arquivos armazenam Tabelas que armazenam registros
 
 
-Fichas são armazenadas em - Pastas que são armazenadas em - Armários de Arquivo
+# O que é MySQL? 
 
-Registros são armazenadas em - Tabelas que são armazenadas em - Arquivos com a extensão .SQL 
+### SQL significa Structured English Query Language (SEQUEL), ou Linguagem estruturada de Query. Com o tempo esse English saiu da sigla, e hoje somente chamamos de SQL.
 
-Arquivos armazenam Tabelas que armazenam registros
+# UMA QUERY É UMA SOLICITAÇÃO, OU UMA RESPOSTA.
 
+### O SQL é como iremos criar bancos de dados, acessar e manipular bancos de dados.
 
+### Oracle é um exemplo de uma solução paga. MySQL é um exemplo de solução gratuita e é a que usaremos neste curso. 
 
-Base de dados
-Sistema gerenciador (SGBD - DMS)
-Linguagem de exploração
-Programas adicionais
-
-
-A IBM, empresa de tecnologia americana vanguardista, que criou o computador pessoal (não foi a Apple nem a Microsoft), criou o conceito de dados hierárquicos. De forma simples, mas hierarquicamente. Foi criado o modelo hierárquico. E em seguida o modelo de rede. Mas ambos não facilitavam o relacionamento direto. Década de 70, e Edgar codd foi o primeiro a sugerir o modelo relacional, e é esse que nós utizaremos. Modelos orientados a objetos são mais atuais do que esse. Mas pra facilitar o nosso entendimento, vamos começar do modelo relacional A partir de um dado armazenado, eu consigo navegar por esses dados.
-
-Structured English Query Language
-
-(SEQUEL)
-
-com o tempo esse English saiu da sigla, e hoje somente chamamos de SQL.
-
-UMA QUERY É UMA SOLICITAÇÃO, OU UMA RESPOSTA.
-
-O SQL é como iremos criar bancos de dados, acessar e manipular bancos de dados.
-
-
-Or órgãos padronizadores ANSI e ISO começaram a padronizar banco de 
-
-Oracle  é um exemplo de uma solução paga 
-
-
-São exemplos de soluções pagas
-
-PostgresSQL
-Maria DB (um fork do MySQL, criados pelos mesmos Programadores)
-MySQL 
-
-São soluções gratuitas. 
-
-MySQL é a que usaremos nesse curso.
 
 ## Pontos de atenção
 
@@ -80,6 +58,19 @@ MySQL é a que usaremos nesse curso.
 ###  Embora os modelos relacionais existam há cerca de 50 anos, o aprendizado desses conceitos está fortemente vinculado à mentalidade de orientação ao futuro, pois ainda serão utilizados por muito tempo. 
 ###  A administração de bancos de dados e informações é uma competência essencial que qualquer desenvolvedor deve ter. O modelo relacional é um forte modelo mental, e sua compreensão altera a maneira como administramos e visualizamos os dados. A orientação ao detalhe é uma habilidade comportamental essencial para o aprendizado dessa competência.
 
+## Alguns dos comandos mais importantes que utilizaremos com MySQL
+
+### SELECT - extrai dados de um banco de dados
+### UPDATE - atualiza dados em um banco de dados
+### DELETE - deleta dados em um banco de dados
+### INSERT INTO - insere  dados em um banco de dados
+### CREATE DATABASE - cria um banco de dados
+### ALTER DATABASE - modifica um banco de dados
+### CREATE TABLE - cria uma nova tabela
+### ALTER TABLE - modifica uma tabela
+### DROP TABLE - deleta uma tabela
+### CREATE INDEX - cria um indice (search key)
+### DROP INDEX - deleta um indice
 
 ## Curiosidade
 
