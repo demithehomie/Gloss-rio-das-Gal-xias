@@ -1,8 +1,5 @@
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+
+# 29/09/2022
 
 # INTRODUÇÃO
 
@@ -78,9 +75,20 @@
 ### CREATE INDEX - cria um indice (search key)
 ### DROP INDEX - deleta um indice
 
+# 30/09/2022
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+| char  |   |   |   |   |
+|  varChar |   |   |   |   |
+|   |   |   |   |   |
+
+
+
 ## Curiosidade
 
 ### CODASYL foi um evento nos anos 60-70 entre empresas e os militares, para tratar de soluções tecnológicas. Lá nasceu o Cobol, linguagem antiga e verbosa, mas extremamente firme, concisa e eficiente. Muitas empresas ainda hoje em dia utilizam Cobol, e geralmente programadores de Cobol ganham bem, pois são recurso raro, escasso. Valioso. Maaaas, o foco de vocês é JAVASCRIPT e seus coleguinhas. 
+
 
 # Sucesso, pessoal! 
 
