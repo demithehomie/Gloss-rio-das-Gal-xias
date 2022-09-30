@@ -1,3 +1,12 @@
+\begin{table}[]
+\begin{tabular}{lllll}
+ &  &  &  &  \\
+ &  &  &  &  \\
+ &  &  &  &  \\
+ &  &  &  & 
+\end{tabular}
+\end{table}
+
 # INTRODUÇÃO
 
 ## Já parou pra pensar onde todos os dados que estão no seu celular, e no seu computador estão armazenados?
