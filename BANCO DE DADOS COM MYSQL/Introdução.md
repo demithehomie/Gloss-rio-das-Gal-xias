@@ -79,7 +79,7 @@
 
 |   |   |   |   |   |
 |---|---|---|---|---|
-| char  |   |   |   |   |
+| char  |  Uma sequência de comprimento FIXO (pode conter letras, números e caracteres especiais). O parâmetro de tamanho especifica o comprimento da coluna em caracteres - pode ser de 0 a 255. Padrão é 1. |   |   |   |
 |  varChar |   |   |   |   |
 |   |   |   |   |   |
 
