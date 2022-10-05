@@ -1,7 +1,7 @@
 
 # 29/09/2022
 
-# INTRODUÇÃO Á BANCO DE DADOS COM MYSQL
+# INTRODUÇÃO À BANCO DE DADOS COM MYSQL
 
 ## Já parou pra pensar onde todos os dados que estão no seu celular, e no seu computador estão armazenados?
 
@@ -100,6 +100,15 @@
 ## De que forma orientação ao detalhe pode ser útil?
 
 ### Estando atento aos detalhes, Carlos é capaz de avaliar rigorosamente o processo de migração e a estrutura do banco de dados. Uma pessoa orientada ao detalhe não admite um cenário suscetível a falhas, mas verifica e testa antes de realizar operações arriscadas!
+
+# Para relembrar!!! 
+## Pontos de Atenção:
+### A maioria das bases de dados relacionais utiliza a definição de dados SQL e a linguagem de query de dados; esses sistemas implementam o que pode ser considerado uma aproximação de engenharia ao modelo relacional.
+### O SQL baseia-se em instruções chamadas de queries. Uma query consiste em uma solicitação de dados ou informações de uma tabela de base de dados ou combinação de tabelas. As queries em SQL padrão que interagem com bases de dados relacionais são CREATE, SELECT, INSERT, UPDATE, DELETE e ALTER TABLE. 
+### O SQL fornece a capacidade de filtrar, calcular, adicionar, agrupar e combinar queries. O SQL é capaz de executar matemática básica, funções de subtotais e transformações lógicas. Os analistas conseguem ordenar os resultados por data, nome ou qualquer coluna.
+### As queries SELECT recuperam determinados registros de uma ou mais tabelas. Em uma query SELECT, o usuário pode escolher quais campos recuperar, de quais tabelas e quais filtros aplicar. 
+### A cláusula WHERE, uma parte opcional das queries SELECT, filtra os dados recuperados, removendo as filas que não seguem as condições especificadas na cláusula.
+
 
 
 
