@@ -109,6 +109,59 @@
 ### As queries SELECT recuperam determinados registros de uma ou mais tabelas. Em uma query SELECT, o usuário pode escolher quais campos recuperar, de quais tabelas e quais filtros aplicar. 
 ### A cláusula WHERE, uma parte opcional das queries SELECT, filtra os dados recuperados, removendo as filas que não seguem as condições especificadas na cláusula.
 
+# O QUE SÃO CONSTRAINTS EM SQL?
+
+
+### A constraint NOT NULL impõe a uma coluna a NÃO aceitar valores NULL.
+### Ou seja, a constraint NOT NULL obriga um campo a sempre possuir um valor.
+### Deste modo, não é possível inserir um registro (ou atualizar) sem entrar com um valor neste campo.
+
+
+### A restrição UNIQUE identifica de forma única cada registro em uma tabela de um banco de dados.
+### As constraints UNIQUE e PRIMARY KEY garantem a unicidade em uma coluna ou conjunto de colunas.
+### Uma constraint PRIMARY KEY automaticamente possui uma restrição UNIQUE definida, portanto não é necessário especificar essa constraint neste caso.
+### É possível termos várias constraints UNIQUE em uma mesma tabela, mas apenas uma Chave Primária por tabela (lembrando que uma PK pode ser composta, ou seja, constituída por mais de uma coluna – mas ainda assim, será uma única chave primária).
+
+
+### A restrição PRIMARY KEY (Chave Primária) identifica de forma única cada registro em uma tabela de banco de dados.
+As Chaves Primárias devem sempre conter valores únicos.
+Uma coluna de chave primária não pode conter valores NULL
+Cada tabela deve ter uma chave primária e apenas uma chave primária.
+
+
+### Uma FOREIGN KEY (Chave Estrangeira) em uma tabela é um campo que aponta para uma chave primária em outra tabela. Desta forma, é usada para criar os relacionamentos entre as tabelas no banco de dados.
+
+### Veja um exemplo de restrição Foreign Key aplicada:
+
+# CONSTRAINT fk_ID_Autor FOREIGN KEY (ID_Autor)
+# REFERENCES tbl_autores(ID_Autor)
+
+### Neste exemplo a chave primária está na tabela tbl_autores e uma chave estrangeira de nome ID_Autor foi criada na tabela atual, usando o nome fk_ID_Autor
+
+
+### A restrição DEFAULT é usada para inserir um valor padrão especificado em uma coluna.
+### O valor padrão será adicionado a todos os novos registros caso nenhum outro valor seja especificado na hora de inserir dados.
+
+# Alerta de BSMs - Conexão com o mundo real
+
+## Você recebe a tarefa de ajudar o CTO a gerar relatórios de vendas mensais da rede de restaurantes para a qual está trabalhando. O MySQL Workbench pode ser utilizado para a consulta e exportação de dados toda vez que forem necessários, ou é possível criar declarações SQL e salvá-las para que somente seja preciso executá-las após a automatização do processo.
+## Por que a orientação ao futuro é importante nessa situação?
+## Como desenvolvedor de software orientado ao futuro, é necessário criar soluções reutilizáveis e que durem mais. Ao refletir sobre possíveis cenários que possam surgir no futuro, você se tornará melhor no que faz e aumentará a probabilidade de uma promoção.
+## De que forma orientação ao detalhe pode ser útil?
+## Compreender as reais necessidades do negócio e contextualizá-lo à sua função como desenvolvedor o ajudará a ser melhor em seu trabalho. É necessário estar atento aos detalhes para identificar o que é relevante e o que não é. Ao analisar os detalhes, você poderá descobrir padrões e criar soluções reutilizáveis.
+
+
+# Para relembrar!!! 
+## Pontos de Atenção:
+
+### Uma cláusula JOIN é utilizada para selecionar dados de duas ou mais tabelas, com base na relação entre as tabelas.
+### INNER JOIN seleciona todos os registros com valores que correspondem nas duas tabelas.
+### LEFT JOIN seleciona todos os registros da tabela esquerda e os registros de correspondência da tabela direita.
+### RIGHT JOIN seleciona todos os registros da tabela direita e os registros correspondentes da tabela esquerda.
+### A cláusula WHERE permite filtrar registros com base nas condições especificadas.
+### O operador IN permite especificar valores selecionados em uma cláusula WHERE.
+### Os operadores LIKE permitem filtrar dados com base em um padrão especificado em uma coluna.
+
 
 
 
