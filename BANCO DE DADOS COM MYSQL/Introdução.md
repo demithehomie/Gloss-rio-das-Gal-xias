@@ -75,13 +75,31 @@
 ### CREATE INDEX - cria um indice (search key)
 ### DROP INDEX - deleta um indice
 
-# 30/09/2022
+# Para relembrar!!! 
+## Pontos de Atenção:
+### A Linguagem de Consulta Estruturada (SQL) é uma linguagem de banco de dados padrão utilizada para criar, manter e recuperar bancos de dados relacionais.
+### O MySQL é um poderoso sistema de código aberto cuja função é gerenciar bancos de dados relacionais.
+### O MySQL Workbench é uma ferramenta utilizada para projetar e estabelecer conexão com bancos de dados baseados no mecanismo do MySQL.
+### O modelo entidade-relacionamento (ER) representa uma forma de projetar bancos de dados graficamente.
+### Os relacionamentos entre tabelas podem ser obrigatórios (linha contínua) ou opcionais (linha tracejada).
+### Os bancos de dados do MySQL podem armazenar valores dos tipos a seguir:
+### String (CHAR, VARCHAR, BINARY, BLOB, LONGTEXT)
+### Numérico (BIT; BOOLEAN; INTEGER, FLOAT, DOUBLE)
+### Data e hora (DATE; DATETIME, TIMESTAMP, TIME, YEAR)
+### Declaração INSERT permite adicionar registros a um banco de dados SQL.
+### Um schema é uma definição de banco de dados que consiste em um conjunto de TABLES e regras (restrições) para proteger a integridade dos dados Abordar DDL: Alter Table, Alter Collumn.
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-| char  |  Uma sequência de comprimento FIXO (pode conter letras, números e caracteres especiais). O parâmetro de tamanho especifica o comprimento da coluna em caracteres - pode ser de 0 a 255. Padrão é 1. |   |   |   |
-|  varChar |   |   |   |   |
-|   |   |   |   |   |
+# Alerta de BSMs - Conexão com o mundo real
+
+### Carlos desempenha a função de administrador de banco de dados em um banco e utiliza bancos de dados relacionais como ferramenta de trabalho. O departamento de TI solicita que Carlos aumente a redundância devido a uma nova lei que estabelece a obrigatoriedade de haver um advogado de segurança adicional nos bancos, visando garantir a proteção de dados dos clientes. 
+
+## De que forma Carlos está adotando a orientação ao futuro quando opta por utilizar um banco de dados relacional?
+
+### Carlos sabe que bases de dados relacionais são antigas, mas também muito seguras e com alta probabilidade de permanecerem no mercado por um longo período. As bases de dados relacionais protegem a integridade e viabilizam a condução de backups durante o processo migratório caso algum erro ocorra. Com a orientação ao futuro, Carlos é capaz de adquirir conhecimentos sobre novas tecnologias baseadas na nuvem que auxiliam sua equipe a atingir a qualidade dos padrões requeridos pelo banco.
+
+## De que forma orientação ao detalhe pode ser útil?
+
+### Estando atento aos detalhes, Carlos é capaz de avaliar rigorosamente o processo de migração e a estrutura do banco de dados. Uma pessoa orientada ao detalhe não admite um cenário suscetível a falhas, mas verifica e testa antes de realizar operações arriscadas!
 
 
 
