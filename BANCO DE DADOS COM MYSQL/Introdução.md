@@ -124,9 +124,9 @@
 
 
 ### A restrição PRIMARY KEY (Chave Primária) identifica de forma única cada registro em uma tabela de banco de dados.
-As Chaves Primárias devem sempre conter valores únicos.
-Uma coluna de chave primária não pode conter valores NULL
-Cada tabela deve ter uma chave primária e apenas uma chave primária.
+### As Chaves Primárias devem sempre conter valores únicos.
+### Uma coluna de chave primária não pode conter valores NULL
+### Cada tabela deve ter uma chave primária e apenas uma chave primária.
 
 
 ### Uma FOREIGN KEY (Chave Estrangeira) em uma tabela é um campo que aponta para uma chave primária em outra tabela. Desta forma, é usada para criar os relacionamentos entre as tabelas no banco de dados.
