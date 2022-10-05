@@ -1,7 +1,7 @@
 
 # 29/09/2022
 
-# INTRODUÇÃO
+# INTRODUÇÃO Á BANCO DE DADOS COM MYSQL
 
 ## Já parou pra pensar onde todos os dados que estão no seu celular, e no seu computador estão armazenados?
 
